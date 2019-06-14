@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>主题活动</title>
+		<link rel="stylesheet" href="css/tou.css" />
+		<link rel="stylesheet" href="css/foot.css" />
+		<style>
+			.lb{background: url(ztimgs/event-mainbck.png) no-repeat;width: 100%;height: 300px;position: relative;background-size: 100%;}
+		    .zhuti-content{width: 100%;}
+		    .zhuti-content:after{content:" ";display: block;clear: both;}
+		    .zhuti-left{float:left;width: 350px;height: 800px;background: #F9F9F9;}
+		    .zhuti-left-up{border-bottom:none;border-left: 3px solid #EDEDED;border-right: 3px solid #EDEDED;width: 100%;background-color: #F9F9F9;position: relative;}
+		    .logo{width: 350px;height: 80px;background-color: #2FA2DC;}
+		    .yu2{width: 320px;height: 65px;margin: auto;border-bottom:1px dashed #E4E4E4;border-top:1px dashed #E4E4E4 ;}
+		    .yu2:hover{background: url(ztimgs/main1_l_two.png) no-repeat;width: 360px;height: 65px;background-size: 100%;}
+		    .zhuti-left-down{border-top:none;border-left: 3px solid #EDEDED;border-right: 3px solid #EDEDED;border-bottom: 3px solid #EDEDED;border-radius:0 0px 20px 20px ;width: 100%;height: 450px;background-color: #F9F9F9;text-align: center;padding-top: 20px;}
+		    .inp{text-align: center;width: 350px;}
+		    select{margin: 10px 0 10px 0;text-rendering: auto;display: inline-block;text-align: start;font: 400 13.3333px arial;width: 284px;height: 35px;font-size: 20px;color: #757575;}
+		    input{display:inline-block;width:280px;height: 30px;font-size: 20px;margin: 10px 0 10px 0;}
+            .lingqu{background-color: #008CD7;border-radius: 15px 15px 15px 15px;width: 230px; height: 40px;margin: auto;margin-top: 100px;line-height: 40px;}
+		    .tiaokuan:hover{color:#F69611}
+		    
+		    .zhuti-right{display: block;float: right;width: 820px;height: 1300px;background-color: white;border-left: 2px solid #E0E0E0;border-right: 2px solid #E0E0E0;border-bottom: 2px solid #E0E0E0;border-radius:0 0 25px 25px;}
+		    .zhuti-right-content{width: 95%;background-color: white;height: 1300px;margin: auto;}
+		    .zhuti-right-up:after{content:" ";display: block;clear: both;}
+		    .zhuti-right-up-left{position: relative;float: left;width: 200px;height: 80px;}
+		    .zhuti-right-up-right{float: right;width: 400px;height: 80px;text-align: right;}
+		    .zhuti-right-down{display: flex;;width: 100%;flex-wrap: wrap;justify-content: space-between;}
+		    .zhuti-right-down-childen{width:250px;height: 340px;background-color: aqua;background-color: #F5F5F5;margin-top: 20px;}
+		    .ljbm{width: 87%;height: 50px;margin: auto;}
+		    .ljbm:after{content:" ";display: block;clear: both;}
+		    .liaojie{width: 105px;height: 30px;background-color: #E48800;float: left;text-align: center;}
+		    .baoming{width: 105px;height: 30px;background-color: #646464;float: right;text-align: center;}
+		    .ye{width: 180px;height: 35px;margin: auto;margin-top: 40px;text-align: center;}
+		    .ye:after{content:" ";display: block;clear: both;}
+		    .ye-number{width: 35px;height: 35px;float: left;border: 1px solid #E0E0E0;}
+		    .shou{width:60px;height: 35px;float: left;margin-right: 10px;border: 1px solid #E0E0E0;}
+		    .mo{width: 60px;height: 35px;float: right;border: 1px solid #E0E0E0;}
+		    .ye-number:hover{background-color: #008BD6;color:#FFFFFF}
+		    .shou:hover{background-color: #008BD6;color: #FFFFFF;}
+		    .mo:hover{background-color: #008BD6;color: #FFFFFF;}
+		    .href{color: #807F7F;}
+		    .href:hover{color: #F69611;}
+		</style>
+		<script>
+			
+		</script>
+	</head>
+	<body>
+		<div class="box">
+			<div class="head">
+				<div class="content">
+					<div class="head-left">
+						<a href="index.html"><img id="shou" src="img/ss.png" height="90px"/></a>
+					</div>
+					<div class="head-right">
+						<div class="head-right-up">
+							<img src="img/h_icon2.png" style="float: right;margin-top: 10px;"/>
+							<img src="img/h_icon1.png" style="float: right;margin:10px 5px 0 5px;"/>
+							<p style="float: right;line-height: 50px;font-size: 14px;color: #737373;">关于我们 | 联系我们</p>
+						</div>
+						<div class="head-right-down">
+							<p style="color: #0A8FD8;float: right;font-size: 21px;line-height: 25px;"><strong>0755-8621 1860</strong></p>
+							<img style="float: right;margin: 0px 5px 0 0;" src="img/qs.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lb">
+				<div class="lb-nav">
+					<div class="content">
+					 	<ul class="lb-nav-ul">
+					 		<li><a href="shouye.html" style="color:#0A8FD8 ;"><strong>关于博睿</strong></a></li>
+					 		<li><a href="#" style="color:#0A8FD8 ;"><strong>博睿课程</strong></a></li>
+					 		<li><a href="huanjing.html" style="color:#0A8FD8 ;"><strong>中心环境</strong></a></li>
+					 		<li><a href="zhuti.html" style="color:#F69611 ;"><strong>主题活动</strong></a></li>
+					 		<li><a href="news.html" style="color:#0A8FD8 ;"><strong>新闻动态</strong></a></li>
+					 		<li><a href="#" style="color:#0A8FD8 ;"><strong>会员服务</strong></a></li>
+					 		<li><a href="#" style="color:#0A8FD8 ;"><strong>父母课堂</strong></a></li>
+					 		<li><a href="yuyue.html" style="color:#0A8FD8 ;"><strong>预约试听</strong></a></li>
+					 	</ul>
+					</div>
+					<div class="lb-nav-di"></div>
+				</div>
+			</div>
+			<div class="section" style="background-color: #F9F9F9;">
+				<div class="content">
+					<div class="zhuti-content">
+						<div class="zhuti-left">
+							<div class="zhuti-left-up">
+								<div class="logo">
+								<img src="ztimgs/main1_l_two-logo.png" style="position: absolute;top: 20px;left: 65px;"/>
+								<span style="font-size: 29px;color: #FFFFFF;line-height: 70px;padding-left: 140px;">主题活动</span>
+							    </div>
+							<div class="yu2" onmouseenter="ent()" onmouseleave="lea()" onclick="ck()">
+								<span id="yugao" style="color: #544C50;font-size: 20px;line-height: 65px;padding-left: 55px;">活动预告</span><span id="ji" style="color:#C0C0C0;padding-left: 90px;"><strong>〉</strong></span>
+							</div>
+							<div class="yu2" onmouseenter="ent2()" onmouseleave="lea2()" onclick="ck2()">
+								<span id="huigu" style="color: #544C50;font-size: 20px;line-height: 65px;padding-left: 55px;">活动回顾</span><span id="ji2" style="color:#C0C0C0;padding-left: 90px;"><strong>〉</strong></span>
+							</div>
+							<div class="yu2" onmouseenter="ent3()" onmouseleave="lea3()" onclick="ck3()" style="border-top:0px dashed #E4E4E4 ;">
+								<span id="shipin" style="color: #544C50;font-size: 20px;line-height: 65px;padding-left: 55px;">精彩视频</span><span id="ji3" style="color:#C0C0C0;padding-left: 90px;"><strong>〉</strong></span>
+							</div>
+							</div>
+							<div class="zhuti-left-down">
+								<img src="ztimgs/free_onlimg.png" width="300px"/>
+								<input type="text" placeholder="宝宝姓名" style="margin-top:20px ;"/>
+								<input type="text" placeholder="联系手机"/>
+								<select>
+									<option>请选择</option>
+									<option>亲子烘焙DIY</option>
+									<option>欢乐英语</option>
+									<option>蒙氏儿童之家</option>
+								</select>
+								<p style="font-size: 20px;color: #757575;float: left;margin:5px 100px 20px 30px;">请选择宝宝出生日期</p>
+								<select style="width: 90px;height: 30px;float: left;margin: 0 15px 20px 30px;">
+									<option>2019</option>
+									<option>2018</option>
+									<option>2017</option>
+									<option>2016</option>
+									<option>2015</option>
+									<option>2014</option>
+									<option>2013</option>
+									<option>2012</option>
+								</select><select style="width: 70px;height: 30px;float: left;margin: 0 15px 20px 0;">
+									<option>12</option>
+									<option>11</option>
+									<option>10</option>
+									<option>9</option>
+									<option>8</option>
+									<option>7</option>
+									<option>6</option>
+									<option>5</option>
+									<option>4</option>
+									<option>3</option>
+									<option>2</option>
+									<option>1</option>
+								</select><select style="width: 70px;height: 30px;float: left;margin: 0 15px 20px 0;">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+									<option>6</option>
+									<option>7</option>
+									<option>8</option>
+									<option>9</option>
+									<option>10</option>
+									<option>11</option>
+									<option>12</option>
+									<option>13</option>
+									<option>14</option>
+									<option>15</option>
+									<option>16</option>
+									<option>17</option>
+									<option>18</option>
+									<option>19</option>
+									<option>20</option>
+									<option>21</option>
+									<option>22</option>
+									<option>23</option>
+									<option>24</option>
+									<option>25</option>
+									<option>26</option>
+									<option>27</option>
+									<option>28</option>
+									<option>29</option>
+									<option>30</option>
+									<option>31</option>
+								</select>
+								<a href="#" style="color: #FFFFFF;font-size: 15px;"><div class="lingqu">免费领取体验课</div></a>
+								<a href="#" style="color: #757575;"><p class="tiaokuan" style="width: 350px;height: 50px;text-align: center;text-decoration: underline;line-height: 60px;">《隐私条款》</p></a>
+							</div>
+							<div class="inp">
+								<input type="text" placeholder="按分类查询" style="border: 1px solid #289DDC;border-radius: 20px;width: 350px;height: 25px;margin-top: 50px;font-size: 15px;padding-left: 10px;background:url(ztimgs/par_chsubd.png) no-repeat right	;"/>
+								
+							</div>
+						</div>
+						<div class="zhuti-right">
+							<div class="zhuti-right-content">
+								<div class="zhuti-right-up">
+									<div class="zhuti-right-up-left">
+										<p style="font-size: 60px;color: #149ADD;display: inline-block;">E</p>
+										<span style="font-size: 22px;color: #149ADD;position: absolute;top: 10px;left: 45px;">活动预报</span><br />
+										<span style="font-size: 16px;color: #757575;position: absolute;left: 45px;bottom: 15px;">vent Forecast</span>
+									</div>
+									<div class="zhuti-right-up-right">
+										<p style="color: #807F7F;font-size:17px;line-height: 80px;">您现在所在的位置 : <a class="href" href="index.html">首页</a>> <a class="href" href="zhuti.html">主题活动</a>> <a class="href" href="#" id="hdtxt">活动预报</a></p>
+									</div>
+								</div>
+								<hr style="height: 3px;border: none;border-top: 3px solid #EDEDED;" />
+								<div class="zhuti-right-down">
+									<div class="zhuti-right-down-childen">
+											<img src="ztimgs/xiao.png" width="100%"/>
+											<p style="font-size: 18px;color: #4E4E4E;padding:10px 0 40px; 0">第一届宝宝爬行赛</p>
+											<p style="font-size: 16px;color: #4E4E4E;">时间:2014-12-09——2015-05-13</p>
+											<p style="font-size: 16px;color: #4E4E4E;">对象:12个月——5岁宝宝</p>
+											<p style="font-size: 16px;color: #4E4E4E;padding-bottom: 15px;">地点:深圳市南川区</p>
+											<div class="ljbm">
+												<div class="liaojie"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">了解详情</a></span></div>
+												<div class="baoming"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">报名参加</a></span></div>
+											</div>
+									</div>
+									<div class="zhuti-right-down-childen">
+										<img src="ztimgs/xiao.png" width="100%"/>
+											<p style="font-size: 18px;color: #4E4E4E;padding:10px 0 40px; 0">第一届宝宝爬行赛</p>
+											<p style="font-size: 16px;color: #4E4E4E;">时间:2014-12-09——2015-05-13</p>
+											<p style="font-size: 16px;color: #4E4E4E;">对象:12个月——5岁宝宝</p>
+											<p style="font-size: 16px;color: #4E4E4E;padding-bottom: 15px;">地点:深圳市南川区</p>
+											<div class="ljbm">
+												<div class="liaojie"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">了解详情</a></span></div>
+												<div class="baoming"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">报名参加</a></span></div>
+											</div>
+									</div>
+									<div class="zhuti-right-down-childen">
+										<img src="ztimgs/xiao.png" width="100%"/>
+											<p style="font-size: 18px;color: #4E4E4E;padding:10px 0 40px; 0">第一届宝宝爬行赛</p>
+											<p style="font-size: 16px;color: #4E4E4E;">时间:2014-12-09——2015-05-13</p>
+											<p style="font-size: 16px;color: #4E4E4E;">对象:12个月——5岁宝宝</p>
+											<p style="font-size: 16px;color: #4E4E4E;padding-bottom: 15px;">地点:深圳市南川区</p>
+											<div class="ljbm">
+												<div class="liaojie"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">了解详情</a></span></div>
+												<div class="baoming"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">报名参加</a></span></div>
+											</div>
+									</div>
+									<div class="zhuti-right-down-childen">
+										<img src="ztimgs/xiao.png" width="100%"/>
+											<p style="font-size: 18px;color: #4E4E4E;padding:10px 0 40px; 0">第一届宝宝爬行赛</p>
+											<p style="font-size: 16px;color: #4E4E4E;">时间:2014-12-09——2015-05-13</p>
+											<p style="font-size: 16px;color: #4E4E4E;">对象:12个月——5岁宝宝</p>
+											<p style="font-size: 16px;color: #4E4E4E;padding-bottom: 15px;">地点:深圳市南川区</p>
+											<div class="ljbm">
+												<div class="liaojie"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">了解详情</a></span></div>
+												<div class="baoming"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">报名参加</a></span></div>
+											</div>
+									</div>
+									<div class="zhuti-right-down-childen">
+										<img src="ztimgs/xiao.png" width="100%"/>
+											<p style="font-size: 18px;color: #4E4E4E;padding:10px 0 40px; 0">第一届宝宝爬行赛</p>
+											<p style="font-size: 16px;color: #4E4E4E;">时间:2014-12-09——2015-05-13</p>
+											<p style="font-size: 16px;color: #4E4E4E;">对象:12个月——5岁宝宝</p>
+											<p style="font-size: 16px;color: #4E4E4E;padding-bottom: 15px;">地点:深圳市南川区</p>
+											<div class="ljbm">
+												<div class="liaojie"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">了解详情</a></span></div>
+												<div class="baoming"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">报名参加</a></span></div>
+											</div>
+									</div>
+									<div class="zhuti-right-down-childen">
+										<img src="ztimgs/xiao.png" width="100%"/>
+											<p style="font-size: 18px;color: #4E4E4E;padding:10px 0 40px; 0">第一届宝宝爬行赛</p>
+											<p style="font-size: 16px;color: #4E4E4E;">时间:2014-12-09——2015-05-13</p>
+											<p style="font-size: 16px;color: #4E4E4E;">对象:12个月——5岁宝宝</p>
+											<p style="font-size: 16px;color: #4E4E4E;padding-bottom: 15px;">地点:深圳市南川区</p>
+											<div class="ljbm">
+												<div class="liaojie"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">了解详情</a></span></div>
+												<div class="baoming"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">报名参加</a></span></div>
+											</div>
+									</div>
+									<div class="zhuti-right-down-childen">
+										<img src="ztimgs/xiao.png" width="100%"/>
+											<p style="font-size: 18px;color: #4E4E4E;padding:10px 0 40px; 0">第一届宝宝爬行赛</p>
+											<p style="font-size: 16px;color: #4E4E4E;">时间:2014-12-09——2015-05-13</p>
+											<p style="font-size: 16px;color: #4E4E4E;">对象:12个月——5岁宝宝</p>
+											<p style="font-size: 16px;color: #4E4E4E;padding-bottom: 15px;">地点:深圳市南川区</p>
+											<div class="ljbm">
+												<div class="liaojie"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">了解详情</a></span></div>
+												<div class="baoming"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">报名参加</a></span></div>
+											</div>
+									</div>
+									<div class="zhuti-right-down-childen">
+										<img src="ztimgs/xiao.png" width="100%"/>
+											<p style="font-size: 18px;color: #4E4E4E;padding:10px 0 40px; 0">第一届宝宝爬行赛</p>
+											<p style="font-size: 16px;color: #4E4E4E;">时间:2014-12-09——2015-05-13</p>
+											<p style="font-size: 16px;color: #4E4E4E;">对象:12个月——5岁宝宝</p>
+											<p style="font-size: 16px;color: #4E4E4E;padding-bottom: 15px;">地点:深圳市南川区</p>
+											<div class="ljbm">
+												<div class="liaojie"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">了解详情</a></span></div>
+												<div class="baoming"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">报名参加</a></span></div>
+											</div>
+									</div>
+									<div class="zhuti-right-down-childen">
+										<img src="ztimgs/xiao.png" width="100%"/>
+											<p style="font-size: 18px;color: #4E4E4E;padding:10px 0 40px; 0">第一届宝宝爬行赛</p>
+											<p style="font-size: 16px;color: #4E4E4E;">时间:2014-12-09——2015-05-13</p>
+											<p style="font-size: 16px;color: #4E4E4E;">对象:12个月——5岁宝宝</p>
+											<p style="font-size: 16px;color: #4E4E4E;padding-bottom: 15px;">地点:深圳市南川区</p>
+											<div class="ljbm">
+												<div class="liaojie"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">了解详情</a></span></div>
+												<div class="baoming"><span style="line-height: 30px;"><a href="#" style="color: #FFFFFF;">报名参加</a></span></div>
+											</div>
+									</div>
+								</div>
+								<div class="ye">
+							        <a href="#" style="color: #757575;line-height: 35px;font-size: 15px;"><div class="shou">首页</div></a>
+							        <a href="#" style="color: #FFFFFF;line-height: 35px;font-size: 15px;"><div class="ye-number" style="background-color: #008BD6;">1</div></a>
+							        <a href="#" style="color: #757575;line-height: 35px;font-size: 15px;"><div class="mo">末页</div></a>
+						         </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div style="width: 100%;height: 50px;background-color: #F5F5F5;"></div>
+			<div class="foot">
+				<div class="foot-content">
+					<div class="foot-content-up">
+						<div class="content">
+							<p style="font-size: 14px;color: #1275BD;line-height: 40px;">返回首页&nbsp;&nbsp;  |  &nbsp;&nbsp;在线留言&nbsp;&nbsp;  |  &nbsp;&nbsp;预约试听&nbsp;&nbsp;  |  &nbsp;&nbsp;战略合作&nbsp;&nbsp;  |  &nbsp;&nbsp;招聘英才&nbsp;&nbsp;  | &nbsp;&nbsp;隐私条款</p>
+						</div>
+					</div>
+					<div class="foot-content-down">
+						<div class="content" style="display: inline-block;">
+							<ul class="foot-justify">
+							<li><div class="foot-content-down-childen">
+								<p style="color: #F5FAFC;font-size: 20px;padding: 45px 0 25px 0;">关于博瑞/About Burray</p>
+								<div class="logo" style="float: left;width: 200px;height: 90px;position: relative;">
+									<img src="img/foot_Dabimg.png" style="float: left;"/><p style="color: #F5FAFC;font-size: 17px;padding: 20px 0 5px 0;line-height: 20px;">博瑞新爱婴</p><p style="color: #F5FAFC;font-size: 17px;">领导者的摇篮</p>
+								</div>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding:15px 0 3px 0 ;">Montessori蒙台梭利教育,1907在意大利罗马</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">诞生以来,在全球已风靡100多年。她没有商业</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">化的张扬,而已"爱与自由"打动着每个父母,</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">在全世界各大州默默传播;当人们发觉她在全</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">世界无处不在之时,才发现....</p>
+							</div></li>
+							<li><div class="foot-content-down-childen">
+								<p style="color: #F5FAFC;font-size: 20px;padding: 45px 0 25px 0;">联系我们/Find Burray</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding:0px 0 3px 0 ;">电话 : 0755-86211806 86211830</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">地址 : 深圳市南山区前海路1083号</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding: 0 0 3px 40px;">鼎太风华5期商场3号</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">交通 : 地铁罗宝线大新站下,换乘公交到鼎太风华站</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">网址  : www.burraytd.com</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">邮箱  : 110785721@qq.com</p>
+							</div></li>
+							<li><div class="foot-content-down-childen">
+								<p style="color: #F5FAFC;font-size: 20px;padding: 45px 0 25px 0;">关注我们/Follow us</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding:0px 0 3px 0 ;">深圳市博睿泰达文化发展有限公司 版权所有</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;display: block;width: 360px;">粤ICP备15005357号-1</p>
+							    <img id="qq" src="img/foot04_19.png" onmouseenter="qen()" onmouseleave="qle()"  style="float: left;padding: 15px 10px 20px 0;"/>
+							    <img src="img/f_shac2.png" style="float: left;padding: 15px 10px 20px 0;"/>
+							    <img src="img/f_shac3.png" style="float: left;padding: 15px 200px 20px 0;"/>
+							    <img src="img/a6.png" style="float: left;padding: 0px 10px 20px 0;"/>
+							    <img src="img/a2.png" style="float: left;padding: 0px 10px 20px 0;"/>
+							</div></li>
+							</ul>
+						</div>
+						<a href="#shou"><img src="img/up_img.png" style="position: absolute;top: 100px;right: 50px;"/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/foot.js" ></script>
+	<script type="text/javascript">
+			var ji = document.getElementById("ji");
+			var ji2 = document.getElementById("ji2");
+			var ji3 = document.getElementById("ji3");
+			var yugao = document.getElementById("yugao");
+			var huogu = document.getElementById("huigu");
+			var shipin = document.getElementById("shipin");
+			var hdtxt = document.getElementById("hdtxt");
+			function ent(){
+				yugao.style.color="#FFFFFF";
+				yugao.style.paddingLeft="70px"
+				ji.style.display="none";
+			}
+			function lea(){
+				yugao.style.color="#544C50";
+				yugao.style.paddingLeft="55px"
+				ji.style.display="inline-block";
+			}
+			function ck(){
+				hdtxt.innerHTML="活动预报";
+			}
+			function ent2(){
+				huigu.style.color="#FFFFFF";
+				huigu.style.paddingLeft="70px"
+				ji2.style.display="none";
+			}
+			function lea2(){
+				huigu.style.color="#544C50";
+				huigu.style.paddingLeft="55px"
+				ji2.style.display="inline-block";
+			}
+			function ck2(){
+				hdtxt.innerHTML="活动回顾";
+			}
+			function ent3(){
+				shipin.style.color="#FFFFFF";
+				shipin.style.paddingLeft="70px"
+				ji3.style.display="none";
+			}
+			function lea3(){
+				shipin.style.color="#544C50";
+				shipin.style.paddingLeft="55px"
+				ji3.style.display="inline-block";
+			}
+			function ck3(){
+				hdtxt.innerHTML="精彩视频";
+			}
+		</script>
+</html>

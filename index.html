@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>首页</title>
+		<link rel="stylesheet" href="css/tou.css" />
+		<link rel="stylesheet" href="css/foot.css" />
+		
+		<style>
+			.lb{background: url(img/d1.png) no-repeat;width: 100%;height: 500px;position: relative;background-size: 100%;}
+			.lb-nav-di{background-image: url(img/sssss.png);position: absolute;margin-top: 450px;width: 100%;height: 10px;}
+			
+			.jieshao{width:100%;}
+			.jieshao-ul{display: flex;justify-content: space-between;width: 1200px;position: absolute;}
+			.neirong-ul{display: flex;justify-content: space-between;width: 1100px;position: absolute;}
+			.jieshao-childen{width: 265px;height: 310px;margin:35px 13px 30px 0 ;text-align: center;}
+			.jieshao-childen-content{width: 1100px;height: 380px;margin: auto;position: relative;overflow: hidden;}
+			
+			.zhanshi{background: url(img/a4.png) no-repeat;width:100%;height: 700px;background-size:100% ;}
+		    .zhanshi-right{float: right;height: 700px;width: 610px;}
+		    .zhanshi-right-up{width: 610px;height: 285px;background-color: cadetblue;margin-top: 35px;float: left;background-image: url(img/a3.png);background-size:100% ;}
+		    .zhanshi-right-up ul{display: flex;width: 610px;margin: auto;justify-content: space-between;margin-top: 130px;}
+		    .zhanshi-right-up-de{width: 610px;height: 60px;background: rgba(0,0,0,0.5);margin-top: 65px;}
+		    .zhanshi-right-down{width: 610px;height: 340px;background-color:#F3FBFE;margin-top: 20px;float: left;}
+		    .zhanshi-right-down-left{width: 280px;height: 320px;background-color: #F3FBFE;float: left;}
+		    .zhanshi-right-down-right{width: 280px;height: 320px;background-color: #F3FBFE;float: right;}
+		    .zhanshi-img{background-image: url(img/a5.png);width: 280px;height: 280px;background-size:100% ;}
+		    .zhanshi-img2{background-image: url(img/a7.png);width: 280px;height: 280px;background-size:100% ;}
+		
+		    .huanjing{width: 100%;}
+		    .huanjing-content{border: 1px solid #F2F2F2;width: 1200px;height: 240px;position: relative;}
+		    .huanjing-content ul{display: flex;justify-content: space-between;width: 1200px;position: absolute;top: 55px;}
+		    .huanjing-content-childen{width: 1100px;height: 260px;margin: auto;position: relative;overflow: hidden;}
+		    .huanjing-content-childen ul{display: flex;justify-content: space-between;width: 1100px;margin-top: -45px;position: absolute;}
+		    .huanjing-content-childen ul li{padding-right: 12px;}
+		    .huanjing-childen{width: 210px;height: 180px;margin-top: 20px;border-radius:15px;}
+		
+		</style>
+		
+	</head>
+	<body>
+		<div class="box">
+			<div class="head">
+				<div class="content">
+					<div class="head-left">
+						<a href="index.html"><img id="shou" src="img/ss.png" height="90px"/></a>
+					</div>
+					<div class="head-right">
+						<div class="head-right-up">
+							<img src="img/h_icon2.png" style="float: right;margin-top: 10px;"/>
+							<img src="img/h_icon1.png" style="float: right;margin:10px 5px 0 5px;"/>
+							<p style="float: right;line-height: 50px;font-size: 14px;color: #737373;">关于我们 | 联系我们</p>
+						</div>
+						<div class="head-right-down">
+							<p style="color: #0A8FD8;float: right;font-size: 21px;line-height: 25px;"><strong>0755-8621 1860</strong></p>
+							<img style="float: right;margin: 0px 5px 0 0;" src="img/qs.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lb">
+				<div class="lb-nav">
+					<div class="content">
+					 	<ul class="lb-nav-ul">
+					 		<li><a href="#" style="color:#0A8FD8 ;"><strong>关于博睿</strong></a></li>
+					 		<li><a href="#" style="color:#0A8FD8 ;"><strong>博睿课程</strong></a></li>
+					 		<li><a href="huanjing.html" style="color:#0A8FD8 ;"><strong>中心环境</strong></a></li>
+					 		<li><a href="zhuti.html" style="color:#0A8FD8 ;"><strong>主题活动</strong></a></li>
+					 		<li><a href="news.html" style="color:#0A8FD8 ;"><strong>新闻动态</strong></a></li>
+					 		<li><a href="#" style="color:#0A8FD8 ;"><strong>会员服务</strong></a></li>
+					 		<li><a href="#" style="color:#0A8FD8 ;"><strong>父母课堂</strong></a></li>
+					 		<li><a href="yuyue.html" style="color:#0A8FD8 ;"><strong>预约试听</strong></a></li>
+					 	</ul>
+					</div>
+					<div class="lb-nav-di"></div>
+				</div>
+			</div>
+			<div class="section">	
+				<div class="jieshao">
+					<div class="content justify">
+						<ul class="jieshao-ul">
+							<li><a id="zj" href="javascript:;"><img src="img/zj.png" width="15px"height="30px" style="margin-top: 150px;"/></a></li>
+							<li><a id="yj" href="javascript:;"><img src="img/yj.png" width="15px"height="30px" style="margin-top: 150px;"/></a></li>
+						</ul>
+						<div class="jieshao-childen-content">
+						<ul id="neirong-ul" class="neirong-ul">
+							<li><div class="jieshao-childen" id="childen" onmouseenter="enter()" onmouseleave="leave()">
+							<img src="img/m01_03.png" style="padding-top: 22px;"/>
+							<p id="name" style="color: #009AE2;font-size: 15px;margin-bottom: 5px;"><strong>情商课程</strong></p>
+							<p id="english" style="color: #009AE2;font-size: 14px;margin-bottom:15px ;">Burray EQ</p>
+							<div style="border: 0.5px solid #C3C3C3;width: 65px;height: 0;margin: auto;margin-bottom: 20px;"></div>
+							<p id="text" style="font-size: 13px;color: #666666;padding-bottom: 3px;">情商理念源自"全球情商之父"美</p>
+							<p id="textt" style="font-size: 13px;color: #666666;">国丹尼尔·戈尔曼博士提出的情商理论。</p>
+							<div id="more" style="width: 100px;height: 23px;border-radius: 15px;background-color: #DEA2D3;margin: auto;position: relative;top:15px;display: none;"><a href="#" style="color: #BE4DAA;font-size: 12px;">查看更多</a></div>
+						</div></li>
+							<li><div class="jieshao-childen" id="childen1" onmouseenter="enter1()" onmouseleave="leave1()">
+							<img src="img/kc_chac6.png" style="padding-top: 23px;"/>
+							<p id="name1" style="color: #009AE2;font-size: 15px;margin-bottom: 5px;"><strong>感觉统合</strong></p>
+							<p id="english1" style="color: #009AE2;font-size: 14px;margin-bottom:15px">Sensory Integration</p>
+							<div style="border: 0.5px solid #C3C3C3;width: 65px;height: 0;margin: auto;margin-bottom: 20px;"></div>
+							<p id="text1" style="font-size: 13px;color: #666666;padding-bottom: 3px;text-align: left;margin-left: 25px;">以人类大脑构造及发育特点和脑神经学</p>
+							<p id="textt1" style="font-size: 13px;color: #666666;text-align: left;margin-left: 25px;">为理论基础,结合中国儿童发育的特</p>
+						    <div  id="more1" style="width: 100px;height: 23px;border-radius: 15px;background-color: #DEA2D3;margin: auto;position: relative;top:15px;display: none;"><a href="#" style="color: #BE4DAA;font-size: 12px;">查看更多</a></div>
+						</div></li>
+							<li><div class="jieshao-childen" id="childen2" onmouseenter="enter2()" onmouseleave="leave2()">
+							<img src="img/kc_chac7.png" style="padding-top: 23px;"/>
+							<p id="name2" style="color: #009AE2;font-size: 15px;margin-bottom: 5px;"><strong>蒙氏数理</strong></p>
+							<p id="english2" style="color: #009AE2;font-size: 14px;margin-bottom:15px">Montessori Mathematica</p>
+							<div style="border: 0.5px solid #C3C3C3;width: 65px;height: 0;margin: auto;margin-bottom: 20px;"></div>
+							<p id="text2" style="font-size: 13px;color: #666666;padding-bottom: 3px;text-align: left;margin-left: 25px;">抓住儿童时期是数学能力发展的敏感期</p>
+							<p id="textt2" style="font-size: 13px;color: #666666;text-align: left;margin-left: 25px;">,借助蒙氏数学的专业教具,通过对</p>
+						    <div id="more2" style="width: 100px;height: 23px;border-radius: 15px;background-color: #DEA2D3;margin: auto;position: relative;top:15px;display: none;"><a href="#" style="color: #BE4DAA;font-size: 12px;">查看更多</a></div>
+						</div></li>
+							<li><div class="jieshao-childen" id="childen3" onmouseenter="enter3()" onmouseleave="leave3()">
+							<img src="img/kc_chac8.png" style="padding-top: 23px;"/>
+							<p id="name3" style="color: #009AE2;font-size: 15px;margin-bottom: 5px;"><strong>全脑课程</strong></p>
+							<p id="english3" style="color: #009AE2;font-size: 14px;margin-bottom:15px">Brain Development</p>
+							<div style="border: 0.5px solid #C3C3C3;width: 65px;height: 0;margin: auto;margin-bottom: 20px;"></div>
+							<p id="text3" style="font-size: 13px;color: #666666;padding-bottom: 3px;text-align: left;margin-left: 25px;">人脑分为左脑和右脑。右脑的信息储存</p>
+							<p id="textt3" style="font-size: 13px;color: #666666;text-align: left;margin-left: 25px;">量是左脑的10万倍,右脑的记忆速度是</p>
+							<div id="more3" style="width: 100px;height: 23px;border-radius: 15px;background-color: #DEA2D3;margin: auto;position: relative;top:15px;display: none;"><a href="#" style="color: #BE4DAA;font-size: 12px;">查看更多</a></div>
+						</div></li>
+						</ul>
+						</div>
+					</div>
+				</div>
+				<div class="zhanshi">
+					<div class="content">
+						<div class="zhanshi-right">
+							<div class="zhanshi-right-up">
+								<ul>
+									<li><img src="img/active_Lac.png"/></li>
+									<li><img src="img/jian.png"/></li>
+								</ul>
+								<div class="zhanshi-right-up-de">
+									<p style="color: #F6F6F6;font-size: 15px;padding: 10px 0 5px 0;">2015新爱婴园长峰会西安站...</p>
+									<p style="color: #8C6430;font-size: 13px;">2015-01-27</p>
+								</div>
+							</div>
+							<div class="zhanshi-right-down">
+								<div class="zhanshi-right-down-left">
+									<p style="color:#009AE2;font-size: 16px;padding: 10px 0 10px; 0">精彩瞬间&nbsp;&nbsp;<span style="font-size: 12px;color: #666666;">Wonderful Monent</span></p>
+								    <div class="zhanshi-img"></div>
+								</div>
+								<div class="zhanshi-right-down-right">
+									<p style="color:#009AE2;font-size: 16px;padding: 10px  0 10px; 0;">父母学堂&nbsp;&nbsp;<span style="font-size: 12px;color: #666666;">Parent School</span></p>
+								     <div class="zhanshi-img2"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="huanjing">
+					<div class="content">
+						<div style="width: 100%;height: 30px;"></div>
+						<div class="huanjing-content">
+							<ul>
+								<a id="lac" href="javascript:;"><li><img src="img/photo_Lac.png"/></li></a>
+								<a id="rac" href="javascript:;"><li><img src="img/photo_Rac.png" /></li></a>
+							</ul>
+							<div class="huanjing-content-childen">
+								<ul id="huanjing-ul">
+									<li><div class="huanjing-childen" style="background-image: url(img/s1.png);background-size:100% ;"></div></li>
+									<li><div class="huanjing-childen" style="background-image: url(img/a1.png);"></div></li>
+									<li><div class="huanjing-childen" style="background-image: url(img/s3.png);"></div></li>
+									<li><div class="huanjing-childen" style="background-image: url(img/s2.png);"></div></li>
+									<li><div class="huanjing-childen" style="background-image: url(img/wsw.png);"></div></li>
+									<li><div class="huanjing-childen" style="background-image: url(img/s1.png);background-size:100% ;"></div></li>
+									<li><div class="huanjing-childen" style="background-image: url(img/a1.png);"></div></li>
+									<li><div class="huanjing-childen" style="background-image: url(img/s3.png);"></div></li>
+									<li><div class="huanjing-childen" style="background-image: url(img/s2.png);"></div></li>
+									<li><div class="huanjing-childen" style="background-image: url(img/wsw.png);"></div></li>
+								</ul>
+							</div>
+						</div>
+						<div style="width: 100%;height: 70px;"></div>
+					</div>
+				</div>
+			</div>
+			<div class="foot">
+				<div class="foot-content">
+					<div class="foot-content-up">
+						<div class="content">
+							<p style="font-size: 14px;color: #1275BD;line-height: 40px;">返回首页&nbsp;&nbsp;  |  &nbsp;&nbsp;在线留言&nbsp;&nbsp;  |  &nbsp;&nbsp;预约试听&nbsp;&nbsp;  |  &nbsp;&nbsp;战略合作&nbsp;&nbsp;  |  &nbsp;&nbsp;招聘英才&nbsp;&nbsp;  | &nbsp;&nbsp;隐私条款</p>
+						</div>
+					</div>
+					<div class="foot-content-down">
+						<div class="content" style="display: inline-block;">
+							<ul class="foot-justify">
+							<li><div class="foot-content-down-childen">
+								<p style="color: #F5FAFC;font-size: 20px;padding: 45px 0 25px 0;">关于博瑞/About Burray</p>
+								<div class="logo" style="float: left;width: 200px;height: 90px;position: relative;">
+									<img src="img/foot_Dabimg.png" style="float: left;"/><p style="color: #F5FAFC;font-size: 17px;padding: 20px 0 5px 0;line-height: 20px;">博瑞新爱婴</p><p style="color: #F5FAFC;font-size: 17px;">领导者的摇篮</p>
+								</div>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding:15px 0 3px 0 ;">Montessori蒙台梭利教育,1907在意大利罗马</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">诞生以来,在全球已风靡100多年。她没有商业</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">化的张扬,而已"爱与自由"打动着每个父母,</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">在全世界各大州默默传播;当人们发觉她在全</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">世界无处不在之时,才发现....</p>
+							</div></li>
+							<li><div class="foot-content-down-childen">
+								<p style="color: #F5FAFC;font-size: 20px;padding: 45px 0 25px 0;">联系我们/Find Burray</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding:0px 0 3px 0 ;">电话 : 0755-86211806 86211830</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">地址 : 深圳市南山区前海路1083号</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding: 0 0 3px 40px;">鼎太风华5期商场3号</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">交通 : 地铁罗宝线大新站下,换乘公交到鼎太风华站</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">网址  : www.burraytd.com</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;">邮箱  : 110785721@qq.com</p>
+							</div></li>
+							<li><div class="foot-content-down-childen">
+								<p style="color: #F5FAFC;font-size: 20px;padding: 45px 0 25px 0;">关注我们/Follow us</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding:0px 0 3px 0 ;">深圳市博睿泰达文化发展有限公司 版权所有</p>
+							    <p style="color: #F5FAFC;font-size: 16px;float: left;padding-bottom: 3px;display: block;width: 360px;">粤ICP备15005357号-1</p>
+							    <img id="qq" onmouseenter="qen()" onmouseleave="qle()" src="img/foot04_19.png" style="float: left;padding: 15px 10px 20px 0;"/>
+							    <img src="img/f_shac2.png" style="float: left;padding: 15px 10px 20px 0;"/>
+							    <img src="img/f_shac3.png" style="float: left;padding: 15px 200px 20px 0;"/>
+							    <img src="img/a6.png" style="float: left;padding: 0px 10px 20px 0;"/>
+							    <img src="img/a2.png" style="float: left;padding: 0px 10px 20px 0;"/>
+							</div></li>
+							</ul>
+						</div>
+						<a href="#shou"><img src="img/up_img.png" style="position: absolute;top: 100px;right: 50px;"/></a>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript" src="js/foot.js" ></script>
+			<script type="text/javascript">			
+				var jh = document.getElementById("childen");
+				var nam = document.getElementById("name");
+				var eng = document.getElementById("english");
+				var txt = document.getElementById("text");
+				var txtt = document.getElementById("textt");
+				var mor = document.getElementById("more");
+				function enter(){
+					jh.style.backgroundColor= "#BC45A7";
+					nam.style.color="#FFFFFF";
+					eng.style.color="#FFFFFF";
+					txt.style.color="#FFFFFF";
+					txtt.style.color="#FFFFFF";
+					mor.style.display="block"
+				}
+				function leave(){
+					jh.style.backgroundColor= "white";
+					nam.style.color="#009AE2";
+					eng.style.color="#009AE2";
+					txt.style.color="#666666";
+					txtt.style.color="#666666";
+					mor.style.display="none";
+				}
+				var jh1 = document.getElementById("childen1");
+				var nam1 = document.getElementById("name1");
+				var eng1 = document.getElementById("english1");
+				var txt1 = document.getElementById("text1");
+				var txtt1 = document.getElementById("textt1");
+				var mor1 = document.getElementById("more1");
+				function enter1(){
+					jh1.style.backgroundColor= "#BC45A7";
+					nam1.style.color="#FFFFFF";
+					eng1.style.color="#FFFFFF";
+					txt1.style.color="#FFFFFF";
+					txtt1.style.color="#FFFFFF";
+					mor1.style.display="block";
+				}
+				function leave1(){
+					jh1.style.backgroundColor= "white";
+					nam1.style.color="#009AE2";
+					eng1.style.color="#009AE2";
+					txt1.style.color="#666666";
+					txtt1.style.color="#666666";
+					mor1.style.display="none";
+				}
+				var jh2 = document.getElementById("childen2");
+				var nam2 = document.getElementById("name2");
+				var eng2 = document.getElementById("english2");
+				var txt2 = document.getElementById("text2");
+				var txtt2 = document.getElementById("textt2");
+				var mor2 = document.getElementById("more2");
+				function enter2(){
+					jh2.style.backgroundColor= "#BC45A7";
+					nam2.style.color="#FFFFFF";
+					eng2.style.color="#FFFFFF";
+					txt2.style.color="#FFFFFF";
+					txtt2.style.color="#FFFFFF";
+					mor2.style.display="block"
+				}
+				function leave2(){
+					jh2.style.backgroundColor= "white";
+					nam2.style.color="#009AE2";
+					eng2.style.color="#009AE2";
+					txt2.style.color="#666666";
+					txtt2.style.color="#666666";
+					mor2.style.display="none";
+				}
+				var jh3 = document.getElementById("childen3");
+				var nam3 = document.getElementById("name3");
+				var eng3 = document.getElementById("english3");
+				var txt3 = document.getElementById("text3");
+				var txtt3 = document.getElementById("textt3");
+				var mor3 = document.getElementById("more3");
+				function enter3(){
+					jh3.style.backgroundColor= "#BC45A7";
+					nam3.style.color="#FFFFFF";
+					eng3.style.color="#FFFFFF";
+					txt3.style.color="#FFFFFF";
+					txtt3.style.color="#FFFFFF";
+					mor3.style.display="block"
+				}
+				function leave3(){
+					jh3.style.backgroundColor= "white";
+					nam3.style.color="#009AE2";
+					eng3.style.color="#009AE2";
+					txt3.style.color="#666666";
+					txtt3.style.color="#666666";
+					mor3.style.display="none";
+				}
+				
+				var neironglist = document.getElementById("neirong-ul");
+				var imgarr = document.getElementsByTagName("jieshao-childen");
+				neironglist.style.width = 265*imgarr.length+"px";
+				var yj = document.getElementById("yj");
+				var zj = document.getElementById("zj");
+	            var m = 0;
+	            var n = 0;
+				zj.onclick=function(){	
+					m++;
+					neironglist.style.left=-275*m+275*n+"px";
+				}
+			    yj.onclick=function(){	
+					n++;
+					neironglist.style.left=-275*m+275*n+"px";
+				}
+				
+				
+				var huanjinglist = document.getElementById("huanjing-ul");
+				var imgarr = document.getElementsByTagName("huanjing-childen");
+				huanjinglist.style.width = 210*imgarr.length+"px";
+				var lac = document.getElementById("lac");
+				var rac = document.getElementById("rac");
+	            var i = 0;
+	            var j = 0;
+				lac.onclick=function(){	
+					i++;
+					huanjinglist.style.left=-222*i+222*j+"px";
+				}
+			    rac.onclick=function(){	
+					j++;
+					huanjinglist.style.left=-222*i+222*j+"px";
+				}
+		    
+			
+		</script>
+		</div>
+	</body>
+	
+</html>

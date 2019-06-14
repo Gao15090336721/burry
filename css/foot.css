@@ -1,0 +1,5 @@
+.foot-content{width: 100%;}
+.foot-content-up{width: 100%;height: 40px;background-color: #7CCBE7;text-align: center;}
+.foot-content-down{width: 100%;height: 400px;background-color: #44B4DC;position: relative;text-align: center;background-image: url(../img/foot01_15.png);background-size: 100%;}
+.foot-content-down-childen{width: 360px;height: 400px;background: #44B4DC;}
+.foot-justify{display: flex;justify-content: space-between;}
